@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *FLASH-MD by France King is alive*`
+ *JARVISV2-MD by TRIDENTBOTZ is alive*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
