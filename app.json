@@ -1,5 +1,5 @@
 {
-  "name":"FLASH-MD",
+  "name":"JARVIS MD V2",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"-",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"JARVIS-MD V2",
       "required":false
 
     } ,
@@ -72,16 +72,16 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "OWNER Name",
     "required": false,
-    "value": "France King"
+    "value": "IRONMAN"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value": "918279975767"
   },
     "WARN_COUNT":
   {
