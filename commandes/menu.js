@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐅𝐋𝐀𝐒𝐇-𝐌𝐃✧────◆
+╭────✧JARVIS-V2✧────◆
 │🌠 *Préfix* : ${s.PREFIXE}
 │🌠 *User* : ${s.OWNER_NAME}
 │🌠 *Mode* : ${mode}
@@ -51,18 +51,18 @@ const date = moment().format('DD/MM/YYYY');
 │🌠 *Date* : ${date}
 │🌠 *Time* : ${temps} 
 │🌠 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│🌠 *Platform* : Linux 
+│🌠 *TEAM* : TRIDENTBOTZ 
 │🌠 *Uptime*: ${runtime(process.uptime())}
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╰─────✧The-LIST✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*FLASH-MD COMMANDS :*
+*JARVIS-MD V2 COMMANDS :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────🔱* *${cat}* *🔱⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 *☬* ${cmd}`;
@@ -75,7 +75,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌France King®🐐²0²⁴*                                         
+  *📌TRIDENTBOTZ⁴*                                         
 *╰═════════════⊷*
 `;
 
@@ -83,7 +83,7 @@ const date = moment().format('DD/MM/YYYY');
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *-JARVIS V2 MD*, DEVLOPER IRONMAN++" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
